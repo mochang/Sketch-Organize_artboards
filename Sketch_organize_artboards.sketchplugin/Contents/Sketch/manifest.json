@@ -1,0 +1,40 @@
+{
+    "name" : "Organize artboards",
+    "author" : "Mo Chang",
+    "description" : "Number and sort artboards based on their x,y positions",
+    "commands" : [
+        {
+            "script" : "number_sort.js",
+            "handler" : "onRun",
+            "name" : "Number & sort",
+            "identifier" : "number_sort"
+        },
+        {
+            "script" : "number.js",
+            "handler" : "onRun",
+            "name" : "Number",
+            "identifier" : "number"
+        },
+        {
+            "script" : "sort.js",
+            "handler" : "onRun",
+            "name" : "Sort",
+            "identifier" : "sort"
+        },
+        {
+            "script" : "remove_numbers.js",
+            "handler" : "onRun",
+            "name" : "Remove numbers",
+            "identifier" : "remove_numbers"
+        }
+    ],
+    "menu" : {
+        "title" : "Organize Artboards",
+        "items" : [
+            "number_sort",
+            "number",
+            "sort",
+            "remove_numbers"
+        ]
+    }
+}
