@@ -1,4 +1,4 @@
-Organize artboards
+#Organize artboards
 Sketch app plugin to sort and number artboards
 
 ##Install
